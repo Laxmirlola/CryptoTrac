@@ -1,0 +1,48 @@
+.container {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+thead {
+  background-color: #1e293b;
+}
+
+th,
+td {
+  padding: 12px 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #1f2937;
+}
+
+tr:hover {
+  background-color: #334155;
+}
+
+.positive {
+  color: #22c55e; /* Green for positive % */
+}
+
+.negative {
+  color: #ef4444; /* Red for negative % */
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.chart {
+  width: 100px;
+  height: 40px;
+}
